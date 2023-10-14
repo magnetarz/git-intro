@@ -6,7 +6,7 @@ devices:
         protocol: telnet
     credentials:
       default:
-        password: '%ASK{}'
+        password: cisco
         username: cisco
       enable:
         password: '%ASK{}'
@@ -19,7 +19,7 @@ devices:
         protocol: telnet
     credentials:
       default:
-        password: '%ASK{}'
+        password: cisco
         username: cisco
       enable:
         password: '%ASK{}'
@@ -32,7 +32,7 @@ devices:
         protocol: telnet
     credentials:
       default:
-        password: '%ASK{}'
+        password: cisco
         username: cisco
       enable:
         password: '%ASK{}'
@@ -45,7 +45,7 @@ devices:
         protocol: telnet
     credentials:
       default:
-        password: '%ASK{}'
+        password: cisco
         username: cisco
       enable:
         password: '%ASK{}'
@@ -58,7 +58,7 @@ devices:
         protocol: telnet
     credentials:
       default:
-        password: '%ASK{}'
+        password: cisco
         username: cisco
       enable:
         password: '%ASK{}'
@@ -71,38 +71,14 @@ devices:
         protocol: telnet
     credentials:
       default:
-        password: '%ASK{}'
+        password: cisco
         username: cisco
       enable:
         password: '%ASK{}'
     os: nxos
     type: nxos
-  edge-firewall:
-    connections:
-      cli:
-        ip: 10.10.20.171
-        protocol: telnet
-    credentials:
-      default:
-        password: '%ASK{}'
-        username: cisco
-      enable:
-        password: '%ASK{}'
-    os: asa
-    type: asa
-  edge-sw01:
-    connections:
-      cli:
-        ip: 10.10.20.172
-        protocol: telnet
-    credentials:
-      default:
-        password: '%ASK{}'
-        username: cisco
-      enable:
-        password: '%ASK{}'
-    os: iosxe
-    type: iosxe
+  
+
   internet-rtr01:
     connections:
       cli:
@@ -110,7 +86,7 @@ devices:
         protocol: telnet
     credentials:
       default:
-        password: '%ASK{}'
+        password: cisco
         username: cisco
       enable:
         password: '%ASK{}'
